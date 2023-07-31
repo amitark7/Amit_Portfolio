@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Kalam:wght@700&family=Philosopher:wght@700&family=Roboto+Slab:wght@100;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Philosopher', sans-serif;
+}
+body{
+    background-color:#8e8ee0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blueviolet;
+    height: 63px;
+}
+ .burger{
+    font-size: 30px;
+    display: none;
+ }
+#navbar{
+   text-align: center;
+   display: flex;
+}
+#navbar ul{
+    display: flex;
+    padding: 0px 12px;
+    justify-content: center;
+    align-items: center;
+}
+#navbar ul li{
+    list-style: none;
+    padding: 0px 21px;
+    font-size: 21px;
+}
+#navbar ul li a{
+ text-decoration: none;
+ color: white;
+ font-size: 1.7rem;
+}
+
+#navbar ul li a:hover{
+ color: blueviolet;
+ background-color: white;
+ /* text-decoration: underline;
+text-underline-position: below;
+text-underline-offset: 4px; */
+}
+
+#logo h2{
+    font-size: 2.5rem;
+    color: white;
+}
+
+/* First Section Style  */
+#firstSection{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 140px 0px;
+    font-family: 'Roboto Slab', serif;
+}
+#firstSection > div{
+ width: 30%;
+}
+
+#leftSection{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    font-size: 2.9rem;
+}
+span{
+    color: blue;
+    font-weight: bold;
+}
+
+#rightSection img{
+    height: 488px;
+    border-radius: 50%;
+    /* margin-top: -62px;
+    border: 2px solid black;
+    background-color: white; */
+}
+
+/* Second Section  */
+main hr{
+    border: 0;
+    background-color: #553ae0;
+    height: 3px;
+    margin: 40px 80px;
+}
+
+#secondSection{
+    max-width:70vw;
+    margin: auto;
+    height: 80vh;
+}
+
+#secondSection #box{
+   width: 70vw;
+   height: 2px;
+   background-color: white;
+   margin: 56px 0px;
+   display: flex;
+   justify-content: space-around;
+}
+
+#secondSection .vertical{
+   width: 2px;
+   height: 93px;
+   background-color: white;
+}
+
+.image-top{
+    height: 35px;
+    position: relative;
+    top: -39px;
+    left:-19px;
+}
+
+.vertical-title{
+    position: relative;
+    top: 60px;
+    width: 150px;
+}
+
+.vertical-desc{
+    position: relative;
+    top: 72px;
+    width: 150px;
+    font-size: 12px;
+}
+/* Education Section  */
+#fourthSection{
+    background-color:#9d9df3;
+}
+#fourthSection h3{
+ text-align: center;
+}
+#fourthSection>h2{
+    text-align: center;
+    font-size: 40px;
+}
+.education{
+    display: flex;
+    max-width: 80%;
+    margin: 20px auto;
+}
+.education>div{
+    width: 50%;
+}
+.education h2{
+    margin-bottom: 12px;
+}
+#achiev{
+    margin: 12px 20px;
+}
+#achiev h1{
+    margin: 19px -24px;
+}
+#achiev ul li{
+    margin: 12px 0px;
+}
+.award-icon{
+    height: 23px;
+}
+.awards h2{
+    display: inline;
+    font-size: 23px;
+}
+.award-box{
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+}
+.para{
+    text-align: justify;
+    padding: 35px 55px;
+}
+.cert-icon{
+    width: 153px;
+}
+/* Hobbies Section  */
+#fifthSection h1{
+    text-align: center;
+    font-size: 34px;
+}
+.hobbie{
+    max-width: 80%;
+    margin: auto;
+}
+.hobbie-box{
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+}
+.hobbie-box1{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 80%;
+    margin: 20px auto;
+}
+.hobbie-para{
+    margin: 20px 40px;
+}
+.hobbie-image{
+    height: 139px;
+    width: 142px;
+}
+.hobbie-title{
+    color: #c80303;
+    font-size: 22px;
+}
+/* Third Section  */
+#thirdSection{
+    background-color: aqua;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box1{
+    height: 60vh;
+    width: 75%;
+    /* margin: 23px auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(26, 48, 48); */
+}
+#box1 input{
+    height: 45px;
+    display: block;
+    width: 90%;
+    margin: 15px auto;
+    border-radius: 8px;
+}
+#box1 h2{
+   font-size: 34px;
+   text-align: center;
+}
+
+.btn{
+    font-size: 23px;
+    background-color: #6b6bf7;
+}
+
+
+/* Footer Section  */
+footer{
+    background-color: rgb(23, 19, 45);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer>div{
+width: 100%;
+}
+.footer{
+    height: 25vh;
+    display: flex;
+   justify-content: space-around;
+}
+.footer>div{
+width: 25%;
+}
+.Footer-box>div{
+    margin: 22px 0px;
+}
+.Footer-box>div a{
+   color: white;
+}
+#copy{
+    text-align: center;
+    font-size: 1.1rem;
+}

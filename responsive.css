@@ -1,0 +1,143 @@
+ @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Kalam:wght@700&family=Roboto+Slab:wght@100;700&display=swap');
+#rightSection img{
+    height: 488px;
+    width: 100%;
+}
+body{
+    background-color: #d58686;
+}
+nav{
+    justify-content: space-between;
+    height: 58px;
+}
+#logo h2{
+   font-size: 1.8rem;
+   font-family: 'Kalam', cursive;
+   margin-left: 12px;
+}
+
+.burger{
+    display: block;
+    position: absolute;
+    right: 5%;
+    top: 14px;
+}
+#firstSection{
+    flex-direction:column-reverse;
+    margin: 12px 0px;
+}
+#firstSection > div {
+    width: 80%;
+    text-align: center;
+}
+
+#secondSection{
+    height: 915px;
+}
+#secondSection h1{
+   text-align: center;
+}
+#secondSection .vertical {
+    width: 100%;
+    height:100vh;
+}
+#secondSection #box{
+    flex-direction: column;
+    margin: 19px 0px;
+    height: 842px;
+}
+.image-top {
+    top: 0px;
+    left: 0px;
+    margin: auto;
+    display: block
+}
+.vertical-title {
+    top: 0px; 
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+.vertical-desc{
+    top: 0px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    display: block
+}
+
+.education{
+    flex-direction: column;
+}
+.education1{
+   text-align: center;
+}
+.education1 ul li{
+   list-style: none;
+}
+.education>div{
+    width: 100%;
+}
+.chart img{
+    width: 90%;
+}
+.award-box{
+    flex-direction: column;
+}
+.awards{
+    margin-top: 20px;
+    text-align: center;
+}
+.awards h2{
+    font-size: 18px;
+}
+.certificate{
+    text-align: center;
+}
+.para{
+    padding: 24px 0px;
+}
+
+.hobbie-box{
+    flex-direction: column;
+    text-align: center;
+}
+.hobbie-image{
+    margin: auto;
+}
+.hobbie-box1{
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer{
+    height: 80vh;
+    flex-direction: column;
+}
+#copy{
+    font-size: .7rem;
+}
+
+#navbar{
+    display: none;
+}
+#navbar ul{
+    flex-direction: column;
+    height: 264px;
+    gap: 19px;
+}
+#navbar.ham_active{
+    display: block;
+    position: absolute;
+    top: 58px;
+    background-color:#5d4475;
+    width: 100%;
+    transition: all 20s ease-out;
+    opacity: 80%;
+}
+
+.footer>div{
+    width: 100%;
+    text-align: center;
+}
+
